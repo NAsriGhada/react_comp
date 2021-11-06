@@ -1,0 +1,24 @@
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+body {
+  background-color: #000000;
+  background-image: radial-gradient(#11581E, #041607);
+  font-family: 'Inconsolata', Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: rgba(128, 255, 128, 0.8);
+  text-shadow:
+      0 0 1ex rgba(51, 255, 51, 1),
+      0 0 2px rgba(255, 255, 255, 0.8);
+}
+.App {
+  text-align: center;
+}
+.profilePicture{
+  height: 250px;
+  width: 250px;
+  border-radius:50%;
+  margin-top: 5%;
+}
+.profilePicture:hover{
+  width:450px;
+  height:450px;
+}
